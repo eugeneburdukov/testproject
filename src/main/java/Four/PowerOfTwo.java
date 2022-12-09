@@ -3,6 +3,7 @@ package Four;
 import java.util.Scanner;
 
 public class PowerOfTwo {
+    //Програма має ввести з консолі натуральне число n та знайти число наступне за n, що є деяким степенем двійки.
     public static void main(String[] args) {
         PowerOfTwo main = new PowerOfTwo();
         main.B();
