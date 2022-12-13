@@ -4,6 +4,10 @@ import java.util.Scanner;
 
 public class SimplePower {
     public static void main(String[] args) {
+        //Прості множники
+        //
+        //На вході програми маємо натуральне число n (n>1). Потрібно розкласти його на прості множники.
+
         Scanner scanner = new Scanner(System.in);
         int number = scanner.nextInt();
 
