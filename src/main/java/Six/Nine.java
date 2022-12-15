@@ -14,7 +14,7 @@ public class Nine {
             array[i] = scanner.nextInt();
         }
 
-        doShow(array);
+        doShowModifiedArray(array);
     }
 
     public static int doMin(int[] a) {
@@ -27,7 +27,7 @@ public class Nine {
         return min;
     }
 
-    public static void doShow(int[] a) {
+    public static void doShowModifiedArray(int[] a) {
         int x = doMin(a) / 2;
 
         for (int i = 0; i < a.length; i++) {
